@@ -1,0 +1,6 @@
+# Este pacote inteiro não deve ser enviado a um repositório público.
+# Para publicar o site, envie somente o CONTEÚDO de site-publico/.
+supabase-privado/
+**/node_modules/
+*.zip
+*.tsbuildinfo
