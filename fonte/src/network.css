@@ -125,7 +125,7 @@ select:focus-visible {
 
 .brandlogo {
   display: block;
-  height: 38px;
+  height: 46px;
   width: auto;
 }
 
@@ -1421,4 +1421,9 @@ footer {
 
     gap: 8px;
   }
+}
+
+@media (max-width: 640px) {
+  .brandname { display: none; }
+  .brandlogo { height: 40px; }
 }
